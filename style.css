@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #000;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+  b{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  body {
+    background-image: black;
+  }
+  
+  .container {
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+  }
+  
+  .calculator.dark {
+    background-color: #071115;
+  }
+  
+  .calculator.dark #display {
+    color: #ffffff;
+  }
+  
+  .calculator.dark button#clear {
+    background-color: #514d4a;
+    color: #ffffff;
+  }
+  
+  .calculator.dark button.btn-number {
+    background-color: #1b2f38;
+    color: #ffffff;
+  }
+  
+  .calculator.dark button.btn-operator {
+    background-color: #ff9500;
+    color: #ffffff;
+  }
+  .calculator.dark button.btn-funct {
+    background-color: #514d4a;
+    color: #ffffff;
+  }
+
+  
+  .calculator.dark button.btn-equal {
+    background-color: #ff9500;
+    color: #ffffff;
+  }
+  
+  .back{
+    width: 30px;
+    height: 30px;
+  }
+
+  .calculator {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #000;
+  }
+  
+ 
+  
+  #display {
+    margin: 0 10px;
+    height: 150px;
+    width: auto;
+    max-width: 270px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+  }
+  
+  #display::-webkit-scrollbar {
+    display: block;
+    height: 3px;
+  }
+  
+  button {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    background-color: #1b2f38;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  
+  
